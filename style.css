@@ -139,4 +139,5 @@ main h1 {
        -3px 3px 0 #000,
         /* Mantenemos la sombra difuminada para dar profundidad */
         0px 0px 30px rgba(0,0,0,1);
+        /**/
 }
