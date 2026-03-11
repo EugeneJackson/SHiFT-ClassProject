@@ -93,6 +93,7 @@ nav ul {
 
 /**Main**/
 
+/*Portada Main*/
 main img {
     max-width: 100%;
     height: auto;
@@ -154,36 +155,287 @@ main h1 {
         0px 0px 30px rgba(0,0,0,1);
 }
 
+/*Primera Seccion Main*/
 .primeraParteIntegraTuMaquina {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    background-color: black;
+    border-bottom: 1px solid white;
+    height: 750px;
+    overflow: hidden;
+}
+
+#textoYDecoracionVertical {
+    width: 45%;
+    border-right: 1px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px 0 100px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#imagenPrincipalManoVerde {
+    height: 100%;
+    width: 55%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#imagenPrincipalManoVerde img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.decoIzquierda {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-83%);
+}
+
+.decoDerecha {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 3%;
+    top: 38%;
+    transform: rotate(180deg);
+}
+
+.textoDiv {
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 156px;
+    margin-top: 0px;
+}
+
+#textoYDecoracionVertical h2 {
+    font-size: 85px;
+    line-height: 1.20;
+    margin: 5px 0;
+    color: #00FF00;
+    font-family: 'Anton';
+    font-weight: 500;
+    filter: opacity(90%);
+}
+
+#textoYDecoracionVertical p {
+    margin: 0;
+    color: white;
+}
+
+.txt-descripcion {
+    font-size: 20px;
+    max-width: 500px;
+    font-family: 'Anton';
+
+}
+
+.FirstSectionText {
+    display: flex;
+    align-items: center;
+
+}
+
+.FirstSectionText p {
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#flechaDecoracion {
+    margin-left: 2%;
+    color: #00FF00;
+    font-weight: 500;
+    font-family: 'Anton';
+    font-size: 50px;
+}
+
+/*Segunda Sección Main*/
+.segundaParteProtocoloAnalisis {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    height: 270px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.segundaParteProtocoloAnalisis h3 {
+    color: #00FF00;
+    display: flex;
+    font-family: 'Anton';
+    font-weight: 200;
+    font-size: 40px;
+    filter: opacity(90%);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 40%;
+}
+
+.segundaParteProtocoloAnalisis > img {
+    width: 37%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.boton {
+    display: flex;
+    height: 70px;
+    width: 12%;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.boton a {
+    text-decoration: none;
+    color: #00FF00;
+    font-size: 17px;
+    font-family: 'Anton';
+    font-weight: 200;
+    height: 60px;
+    white-space: nowrap;
+    padding: 16px;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.boton a:hover {
+    background-color: #00FF00;
+    color: #000;
+}
+
+.boton img {
+    height: 60px;
+    width: auto;
+    border: 1px solid white;
+}
+
+
+/*Tercera Seccion Main*/
+
+.terceraParteCajas {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    height: 670px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.analisisNucleoMain {
+    display: flex; 
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid white;
+}
+
+.analisisNucleoBanner {
+    background-color: #00FF00;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 30px 0;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+    flex-shrink: 0;
+}
+
+.analisisNucleoBanner img {
+    position: relative;
+    bottom: 10%;
+    right: 35%;
+    margin-bottom: 50px;
+    filter: opacity(90%);
+}
+
+.analisisNucleoBanner h3 {
+    color: black;
+    font-family: 'Anton';
+    font-size: 35px;
+    font-weight: 100;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 46%;
+    left: 5%;
+}
+
+.cajaMitad {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center; 
     align-items: center;
     background-color: black;
-    padding: 80px 10%;
-    border-bottom: 1px solid white;
+    padding: 40px 0px;
 }
 
-#FirstSectionText {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-
+.cajaMitad img {
+    width: 100%;
 }
 
-section h2 {
-    color: #00FF00;      /* Tu verde neón */
-    font-family: 'Anton', sans-serif;
-    font-size: 80px;     /* Tamaño grande como el boceto */
-    line-height: 0.9;    /* Crucial para que las líneas se junten */
-    margin-bottom: 20px;
-    text-transform: uppercase;
+.infoFlotante {
+    position: absolute;
+    bottom: 130px;
+    left: 50px;
 }
 
-.primeraParteIntegraTuMaquina .txt-descripcion {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-weight: 300;    /* Para que se vea más elegante y ligero */
-    font-size: 15px;
-    line-height: 1.6;    /* Más espacio entre líneas para lectura */
-    max-width: 500px;    /* Para que no ocupe todo el ancho y se vea compacto */
+.adquisicionVerificadaMain {
+    display: flex; 
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
 }
+
+.adquisicionVerificadaBanner {
+    background-color: #00FF00;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 30px 0;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+    flex-shrink: 0;
+    width: 15%;
+}
+
+.cajaMitad2 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.cajaMitad2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
