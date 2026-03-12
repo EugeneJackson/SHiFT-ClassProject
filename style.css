@@ -337,6 +337,13 @@ main h1 {
     height: 670px;
     overflow: hidden;
     align-items: center;
+    
+}
+
+.terceraParteCajas h3 {
+    color: #00FF00;
+    font-family: 'Anton';
+    font-weight: 200;
 }
 
 .analisisNucleoMain {
@@ -363,7 +370,7 @@ main h1 {
 
 .analisisNucleoBanner img {
     position: relative;
-    bottom: 10%;
+    bottom: 60px;
     right: 35%;
     margin-bottom: 50px;
     filter: opacity(90%);
@@ -378,8 +385,8 @@ main h1 {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     position: relative;
-    bottom: 46%;
-    left: 5%;
+    bottom: 280px;
+    left: 7px;
 }
 
 .cajaMitad {
@@ -389,7 +396,6 @@ main h1 {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    background-color: black;
     padding: 40px 0px;
 }
 
@@ -400,42 +406,168 @@ main h1 {
 .infoFlotante {
     position: absolute;
     bottom: 130px;
-    left: 50px;
+    left: 0px;
+    font-size: 50px;
+    background-color: black;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+}
+
+.infoFlotante h3 {
+    font-size: 33px;
+    margin-left: 7%;
+    padding-top: 13px;
+}
+
+.botonCaja1 {
+    display: flex;
+    height: 120px;
+    width: 400px;
+    align-items: center;
+    background-color: #000;
+    border: 1px solid white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.botonCaja1 a {
+    text-decoration: none;
+    color: #00FF00;
+    font-size: 17px;
+    font-family: 'Anton';
+    font-weight: 200;
+    height: 60px;
+    white-space: nowrap;
+    padding: 16px;
+    border: 1px solid white;
+    transition: 0.6s;
+    margin-left: 6%;
+}
+
+.botonCaja1 a:hover {
+    background-color: #00FF00;
+    color: #000;
+}
+
+.botonCaja1 img {
+    height: 60px;
+    width: auto;
+    border: 1px solid white;
 }
 
 .adquisicionVerificadaMain {
-    display: flex; 
-    flex-direction: row;
+    display: flex;
     width: 50%;
     height: 100%;
 }
 
 .adquisicionVerificadaBanner {
     background-color: #00FF00;
+    width: 15%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     padding: 30px 0;
     box-sizing: border-box;
     border-right: 1px solid white;
     flex-shrink: 0;
-    width: 15%;
+    position: relative;
+}
+
+.adquisicionVerificadaBanner h3 {
+    color: black;
+    font-family: 'Anton';
+    font-size: 35px;
+    font-weight: 100;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 224px;
+}
+
+#imagenDeco1 {
+    position: absolute;
+    bottom: 255px;
+    right: 115px;
+}
+
+#imagenDeco2 {
+    position: absolute;
+    top: 255px;
+    left: 115px;
 }
 
 .cajaMitad2 {
+    position: relative;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+    justify-content: center; 
     align-items: center;
-    background-color: black;
+    padding: 40px 0px;
 }
 
 .cajaMitad2 img {
     width: 100%;
-    height: 100%;
 }
 
+.infoFlotanteCaja2 {
+    position: absolute;
+    right: 391px;
+    top: 353px;
+    font-size: 50px;
+    background-color: black;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+}
 
+.infoFlotanteCaja2 h3 {
+    font-size: 30px;
+    margin-left: 7%;
+    padding-top: 13px;
+
+}
+
+.botonCaja2 {
+    display: flex;
+    height: 123px;
+    width: 400px;
+    align-items: center;
+    background-color: #000;
+    border: 1px solid white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.botonCaja2 a {
+    text-decoration: none;
+    color: #00FF00;
+    font-size: 17px;
+    font-family: 'Anton';
+    font-weight: 200;
+    height: 60px;
+    white-space: nowrap;
+    padding: 16px;
+    border: 1px solid white;
+    transition: 0.6s;
+    margin-left: 6%;
+}
+
+.botonCaja2 a:hover {
+    background-color: #00FF00;
+    color: #000;
+}
+
+.botonCaja2 img {
+    height: 60px;
+    width: auto;
+    border: 1px solid white;
+}
+
+/* Tercera Parte */
 
