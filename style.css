@@ -614,81 +614,67 @@ main h1 {
 /* Quinta seccion Main */
 
 .quintaSeccionTresCajasMain {
-    display: flex;
     width: 100%;
-    background-color: black;
-    border-bottom: 1px solid white;
-    height: 580px;
-    overflow: hidden;
-    align-items: center;
-    text-decoration: none;
+    height: 600px;
+    display: flex;
+}
+
+.quintaSeccionTresCajasMain h5 {
+    font-size: 45px;
     font-family: 'Anton';
-    font-weight: 100%;
-}
-
-.quintaSeccionCaja1 {
-    width: 33.3%;
-    height: 100%;
-    background-color: #00FF00;
-}
-
-.quintaSeccionCaja1 h5 {
-    padding-top: 8%;
-    color: black;
     font-weight: 100;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Anton';
-}
-
-.quintaSeccionCaja1 img {
-    margin-left: 5px;
-    width: 600px;
-    height: 40px;
-    position: relative;
-    top: 5%;
-}
-
-.InfoFlotanteQuintaSeccionCaja1 {
-    position: absolute;
-    font-size: 50px;
-    background-color: black;
-    border: 1px solid white;
-    border-bottom: 1px solid black;
-    
-}
-
-.InfoFlotanteQuintaSeccionCaja1 p {
-    color: #00FF00;
-    text-align: center;
-    font-size: 40px;
-    padding-top: 25px;
-    filter: opacity(95%);
-    width: 90%;
     margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 35px;
+    margin-bottom: 15px;
 }
 
-.botonQuintaSeccionCaja1 {
-    
+.quintaSeccionTresCajasMain img {
+    width: 90%;
+    margin-top: 18px;
+    margin-bottom: 28px;
 }
 
-/*------------------------*/
-
-.quintaSeccionCaja2 {
-    width: 33.3%;
-    height: 100%;
-}
-
-.quintaSeccionCaja2 h5 {
-    color: #00FF00;
-}
-.InfoFlotanteQuintaSeccionCaja2 {
-    color: #00FF00;
-}
-
-/*------------------------*/
-.quintaSeccionCaja3 {
-    width: 33.3%;
-    height: 100%;
+    /*CAJA 1*/
+.quintaSeccionCaja1 {
+    width: 33.33333333%;
     background-color: #00FF00;
+    color: #000;
+    text-align: center;
+}
+
+
+    /*CAJA 2*/
+.quintaSeccionCaja2 {
+    width: 33.33333333%;
+    background-color: #000;
+    color: #00FF00;
+    text-align: center;
+}
+
+    /*CAJA 3*/
+.quintaSeccionCaja3 {
+    width: 33.33333333%;
+    background-color: #00FF00;
+    color: #000;
+    text-align: center;
+}
+
+
+/*CAJA NEGRA SECCION 1 Y 3*/
+
+.InfoFlotanteQuintaSeccionCajaNegra {
+    background-color: #000;
+    width: 75%;
+    margin-left: 12.5%;
+    color: #00FF00;
+}
+
+/*CAJA VERDE SECCION 2*/
+
+.InfoFlotanteQuintaSeccionCajaVerde {
+    background-color: #00FF00;
+    width: 75%;
+    margin-left: 12.5%;
+    color: #000;
 }
