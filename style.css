@@ -39,7 +39,7 @@ header {
 }
 
 #imagenesHeader img {
-    height: 35px; 
+    height: 35px;
     width: auto;
     vertical-align: middle;
     margin: 3px;
@@ -79,7 +79,7 @@ nav li {
     align-items: center;
     justify-content: center;
     height: 100%;
-    border-left: 1px solid white; 
+    border-left: 1px solid white;
     border-right: 1px solid white;
     margin-right: -1px;
 }
@@ -94,7 +94,7 @@ nav ul {
 /**Main**/
 
 /*Portada Main*/
-main img {
+#imagenFondoMain {
     max-width: 100%;
     height: auto;
     display: block;
@@ -141,18 +141,18 @@ main h1 {
     margin: 0 auto;
     margin-top: 90px;
 
-    text-shadow: 
-        2px 2px 0 #000,
-       -2px -2px 0 #000,
-        2px -2px 0 #000,
-       -2px 2px 0 #000,
-        /* Añadimos más capas de sombra nítida para un contorno más grueso */
-        3px 3px 0 #000,
-       -3px -3px 0 #000,
-        3px -3px 0 #000,
-       -3px 3px 0 #000,
-        /* Mantenemos la sombra difuminada para dar profundidad */
-        0px 0px 30px rgba(0,0,0,1);
+    text-shadow:
+            2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+                /* Añadimos más capas de sombra nítida para un contorno más grueso */
+            3px 3px 0 #000,
+            -3px -3px 0 #000,
+            3px -3px 0 #000,
+            -3px 3px 0 #000,
+                /* Mantenemos la sombra difuminada para dar profundidad */
+            0px 0px 30px rgba(0,0,0,1);
 }
 
 /*Primera Seccion Main*/
@@ -291,7 +291,7 @@ main h1 {
     width: 37%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
 .boton {
@@ -337,7 +337,7 @@ main h1 {
     height: 670px;
     overflow: hidden;
     align-items: center;
-    
+
 }
 
 .terceraParteCajas h3 {
@@ -347,7 +347,7 @@ main h1 {
 }
 
 .analisisNucleoMain {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     width: 50%;
     height: 100%;
@@ -361,7 +361,7 @@ main h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     padding: 30px 0;
     box-sizing: border-box;
     border-right: 1px solid white;
@@ -394,7 +394,7 @@ main h1 {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 40px 0px;
 }
@@ -506,7 +506,7 @@ main h1 {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 40px 0px;
 }
@@ -617,65 +617,132 @@ main h1 {
     width: 100%;
     height: 600px;
     display: flex;
+    border-bottom: 1px solid white;
 }
 
 .quintaSeccionTresCajasMain h5 {
-    font-size: 45px;
+    font-size: 53px;
     font-family: 'Anton';
     font-weight: 100;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 35px;
+    margin-top: 60px;
     margin-bottom: 15px;
 }
 
-.quintaSeccionTresCajasMain img {
+.decorations {
     width: 90%;
-    margin-top: 18px;
+    margin-top: 50px;
     margin-bottom: 28px;
     margin-left: 5%;
 }
 
-    /*CAJA 1*/
-.quintaSeccionCaja1 {
+/*CAJA 1*/
+.quintaSeccionCaja {
     width: 33.33333333%;
     background-color: #00FF00;
     color: #000;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quintaSeccionCaja h5 {
+    font-size: 2.5vw;
 }
 
 
-    /*CAJA 2*/
-.quintaSeccionCaja2 {
-    width: 33.33333333%;
-    background-color: #000;
-    color: #00FF00;
-    text-align: center;
-}
-
-    /*CAJA 3*/
-.quintaSeccionCaja3 {
-    width: 33.33333333%;
-    background-color: #00FF00;
-    color: #000;
-    text-align: center;
-}
 
 
 /*CAJA NEGRA SECCION 1 Y 3*/
 
-.InfoFlotanteQuintaSeccionCajaNegra {
-    background-color: #000;
+.InfoFlotanteQuintaSeccionCaja {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px;
     width: 86.5%;
-    margin-left: 6.5%;
-    color: #00FF00;
+    border: 1px solid white;
 }
 
-/*CAJA VERDE SECCION 2*/
+.InfoFlotanteQuintaSeccionCaja p {
+    font-family: 'Anton';
+    font-weight: 100;
+    font-size: 1.8vw;
+    margin-block: 10px;
+}
 
-.InfoFlotanteQuintaSeccionCajaVerde {
+.botonQuintaSeccionCajaNegra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonNegro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonNegro img{
+    border: 1px solid white;
+    border-left: none;
+    height: 100%;
+}
+
+.botonNegro a{
+    color: #00FF00;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Anton';
+    font-weight: 200;
+    padding: 13px;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+.botonNegro a:hover {
     background-color: #00FF00;
-    width: 86.5%;
-    margin-left: 6.5%;
+    color: #000;
+}
+.botonVerde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonVerde img{
+    border: 1px solid white;
+    border-left: none;
+    height: 100%;
+}
+
+.botonVerde a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Anton';
+    font-weight: 200;
+    padding: 13px;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.botonVerde a:hover {
+    background-color: #000000;
+    color: #0F0;
+ }
+
+
+
+.secondary {
+    background-color: #000000;
+    color: #0F0;
+}
+
+.primary {
+    background-color: #00ff00;
     color: #000;
 }
