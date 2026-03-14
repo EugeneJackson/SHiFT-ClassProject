@@ -752,18 +752,31 @@ main h1 {
 
 footer {
     background-color: #000;
+    padding: 50px 0;
 }
 
 .footerMainSection {
     display: flex;
     width: 80%;
     align-items: center;
-    
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footerMainSection img {
+    height: 400px;
+    width: 10%;
 }
 
 .logoFooter {
     width: 100%;
     border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.logoFooter img {
+    width: 170px;
+    
 }
 
 .redesSociales {
@@ -773,4 +786,31 @@ footer {
 
 .contenedor-textos {
     display: flex;
+    gap: 150px;
+    width: 50%;
+    text-align: left;
+}
+
+.contenedor-textos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contenedor-textos a {
+    text-decoration: none;
+    font-family: 'Anton';
+    font-weight: 100;
+    color: white;
+}
+
+.contenedor-textos h6 {
+    font-family: 'Anton';
+    font-weight: 100;
+    color: #00FF90;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.footerParagraph {
+    border-top: 1px solid white;
 }
