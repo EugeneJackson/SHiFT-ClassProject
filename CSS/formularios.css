@@ -1,0 +1,236 @@
+/* ==========================================================================
+   1. CONFIGURACIÓN GLOBAL / RESET
+   ========================================================================== */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* ==========================================================================
+   1. HEADER (ENCABEZADO Y NAVEGACIÓN)
+   ========================================================================== */
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+/* Logotipo principal */
+#logo {
+    height: 70px;
+    width: 130px;
+    border-right: 1px solid white;
+    align-self: stretch;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor de iconos a la derecha del header */
+#imagenesHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    width: 130px;
+    border-left: 1px solid white;
+    padding: 0 15px
+}
+
+#imagenesHeader img {
+    height: 35px;
+    width: auto;
+    vertical-align: middle;
+    margin: 3px;
+}
+
+/* Menú de navegación */
+nav {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    color: #00FF00;
+    transition: 0.4s;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-right: -1px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+/* ==========================================================================
+    2. Formulario de Inicio de Sesión
+    ========================================================================== */
+
+
+main {
+    position: relative;
+    min-height: calc(100vh - 71px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifFondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+    filter: brightness(40%);
+}
+
+.formulario {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    padding: 30px 40px; 
+    border: 1px solid white;
+    width: 700px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-sizing: border-box; 
+}
+
+.formulario label {
+    color: #00FF00; 
+    font-size: 18px; 
+    margin-bottom: 8px; 
+    display: inline-block;
+}
+
+.controls {
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    padding: 12px 15px; 
+    margin-bottom: 18px; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.controls:focus {
+    border-color: #00FF00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+#button {
+    width: 100%;
+    background-color: #00FF00;
+    border: none;
+    padding: 12px; 
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 26px; 
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#button:hover {
+    background-color: black;
+    color: #00FF00;
+    outline: 1px solid #00FF00;
+}
+
+.formulario p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formulario p a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.formulario p a:hover {
+    color: #00FF00;
+}
+
+.contenedor-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.contenedor-checkbox label {
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    color: #00FF00;
+}
+
+.checkboxStyle {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #00FF00;
+}
+
+.titulo-formulario {
+    color: #00FF00;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+}

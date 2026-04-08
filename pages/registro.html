@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>//SHiFT - Registro</title>
+    <link rel="stylesheet" href="../CSS/formularios.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img id="logo" src="../Images/LogoEdited.png" alt="Logo" /></a>
+
+        <nav>
+            <ul>
+                <li><a href="">Catálogo</a></li>
+                <li><a href="">Investigación</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div id="imagenesHeader">
+            <a href="iniSesion.html"><img id="headerUser" src="../Images/USER.png" alt="Imagen User"/></a>
+            <img id="headerCesta" src="../Images/CESTA.png" alt="" />
+        </div>
+    </header>
+
+    <main>
+
+        <img src="../Images/Animation.gif" alt="" class="gifFondo">
+
+        <form class="formulario">
+            <h1 class="titulo-formulario">REGISTRO NUEVO RUNNER</h1>
+
+
+            <label for="nombreRegistro">Nombre</label><br>
+            <input class="controls" id="nombreRegistro" type="text" name="nombre" placeholder="RUNNER_FIRST_NAME"><br>
+
+            <label for="apellidoRegistro">Apellido/s</label><br>
+            <input class="controls" id="apellidoRegistro" type="text" name="apellidos" placeholder="RUNNER_LAST_NAME"><br>
+
+
+            <label for="emailRegistro">Correo Electrónico</label><br>
+            <input class="controls" id="emailRegistro" type="email"  name="nuevoEmail" placeholder="NEW_RUNNER_EMAIL"><br>
+
+            <label for="primeraContrasena">Contraseña</label><br>
+            <input class="controls" id="primeraContrasena" type="password" name="nuevaContrasena" placeholder="NEW_RUNNER_PASSWORD"><br>
+
+            <label for="confirmacionContrasena">Repite la contraseña</label><br>
+            <input class="controls" id="confirmacionContrasena" type="password" name="nuevaContrasena" placeholder="CONFIRM_NEW_RUNNER_PASSWORD"><br>
+            
+            <div class="contenedor-checkbox">
+                <label for="terminosCondicionesCheck">He leído y acepto la política de privacidad</label>
+                <input class="checkboxStyle" type="checkbox" id="terminosCondicionesCheck">
+            </div>
+
+            <input id="button" type="submit" name="" value="CREAR RUNNER">
+
+            <p><a href="iniSesion.html">¿Tiene cuenta? Inicia sesión</a></p>
+        </form>
+
+    </main>
+</body>
+</html>

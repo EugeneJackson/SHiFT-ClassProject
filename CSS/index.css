@@ -24,7 +24,7 @@ header {
 /* Logotipo principal */
 #logo {
     height: 70px;
-    width: 180px;
+    width: 130px;
     border-right: 1px solid white;
     align-self: stretch;
     object-fit: contain;
@@ -40,10 +40,10 @@ header {
     align-items: center;
     gap: 10px;
     align-self: stretch;
-    width: auto;
+    width: 130px;
     border-left: 1px solid white;
-    padding: 0 25px;
-    margin-left: auto;
+    padding: 0 15px
+    
 }
 
 #imagenesHeader img {
@@ -58,7 +58,7 @@ nav {
     align-self: stretch;
     display: flex;
     justify-content: center;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 nav a {
